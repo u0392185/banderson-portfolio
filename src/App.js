@@ -34,7 +34,7 @@ function App() {
   const clickLink = pageObject => setCurrentPage(pageObject)
 
   return (
-    <div className="App bg-black flex flex-col h-screen">
+    <div className="App flex flex-col grow h-screen">
         <Header currentPage={currentPage} pages={pages} clickLink={clickLink} />
             <main className="flex-grow container mx-auto px-4 text-teal-50 text-left my-2">
               { currentPage.pageName === 'portfolio' && <Portfolio /> }
