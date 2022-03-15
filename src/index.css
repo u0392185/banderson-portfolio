@@ -25,3 +25,7 @@ a:hover{
   color:  white;
   font-weight: bold;
 }
+
+.mad-skills:not(:last-child):after {
+  content:  ' | ';
+}
