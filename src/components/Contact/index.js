@@ -11,7 +11,6 @@ function ContactForm() {
 	function handleChange(e) {
 		if(e.target.name === 'email') {
 			const isValid = validateEmail(e.target.value)
-			console.log(isValid)
 			// isValid conditional statement
 			if (!isValid) {
 			  setErrorMessage('Please enter a valid email.');
@@ -38,7 +37,6 @@ function ContactForm() {
 	}
 
 	function validateEmail(email) {
-		console.log('The email: ', email)
 
 		return /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)
 	}

@@ -1,6 +1,6 @@
 {
   "name": "banderson-portfolio",
-  "homepage": "http://u0392185.github.io/banderson-portfolio",
+  "homepage": "https://u0392185.github.io/banderson-portfolio",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
@@ -25,7 +25,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
