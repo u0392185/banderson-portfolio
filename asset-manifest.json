@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/banderson-portfolio/static/css/main.c9d5bc46.css",
+    "main.js": "/banderson-portfolio/static/js/main.5d89e457.js",
+    "static/js/787.6236f439.chunk.js": "/banderson-portfolio/static/js/787.6236f439.chunk.js",
+    "index.html": "/banderson-portfolio/index.html",
+    "main.c9d5bc46.css.map": "/banderson-portfolio/static/css/main.c9d5bc46.css.map",
+    "main.5d89e457.js.map": "/banderson-portfolio/static/js/main.5d89e457.js.map",
+    "787.6236f439.chunk.js.map": "/banderson-portfolio/static/js/787.6236f439.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9d5bc46.css",
+    "static/js/main.5d89e457.js"
+  ]
+}
