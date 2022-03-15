@@ -46,18 +46,17 @@ function Resume() {
 				</div>
 			</div>
 			{
-				skills.map(({listed, display}, i) => (
-			        <div className="flex my-2">
+				skills.map(({listed, display, name}, i) => (
+			        <div className="flex my-6" key={name}>
 			        	<div className="w-1/4">
 			        		{display}
 			        	</div>
 			        	<div className="w-1/2">
 					  		{listed.map((skill, j) => (
-				  				<span className="madSkills">{skill}{j < (listed.length - 1)  && ", "}</span>
+				  				<span key={j} className="madSkills">{skill}{j < (listed.length - 1)  && ", "}</span>
 					  		))}
 			        	</div>		
 					</div>
-				
 			))}	
 
 		</section>
